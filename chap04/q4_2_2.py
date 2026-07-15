@@ -4,4 +4,5 @@ def perrin(m=100):
     while a < m:
         result.append(a)
         a, b, c = b, c, a+b
-        return result
+    return result
+print(perrin())
